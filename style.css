@@ -7,8 +7,8 @@
 
 /* V3 — expanded technology stories */
 .tech-showcase{border-top:1px solid #aaa69e}.tech-item{display:grid;grid-template-columns:1fr 1fr;min-height:560px;border-bottom:1px solid #aaa69e}.tech-item.reverse .tech-visual{order:2}.tech-item.reverse .tech-text{order:1}.tech-visual{min-height:560px;background-size:cover;background-position:center;position:relative;overflow:hidden}.tech-visual:after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,transparent 50%,#00000018)}
-.tech-visual.pur{background-image:url('assets/kitchen-light.png');background-size:cover}
-.tech-visual.laser{background-image:url('assets/kitchen-light.png');background-size:cover}
+.tech-visual.pur{background-image:url(assets/pur-oak-detail.png);background-size:cover}
+.tech-visual.laser{background-image:url(assets/laser-ivory-detail.png);background-size:cover}
 .tech-visual.cnc{background-image:url('assets/kitchen-light.png')}
 .tech-visual.hardware{background:#d7d5cf;display:flex;align-items:center;justify-content:center}.hardware-word{font-size:clamp(70px,10vw,150px);font-weight:500;letter-spacing:-.06em;color:#222;position:relative;z-index:2}
 .tech-visual.delivery{background-image:url('assets/kitchen-light.png')}
@@ -29,7 +29,7 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
 
 /* Local imagery: no third-party image requests. */
-.hero{background-image:url(assets/kitchen-light.png)}.photo-a{background-position:70% center}.p1{background-position:25% center}.p2{background-position:75% center}.p3{background-position:center}.tech-visual.pur,.tech-visual.laser{background-position:45% 70%}.tech-visual.cnc,.tech-visual.delivery,.tech-visual.install{background-image:none;background:linear-gradient(135deg,#c9bda9,#ebe5d9)}
+.hero{background-image:url(assets/kitchen-light.png)}.photo-a{background-position:70% center}.p1{background-position:25% center}.p2{background-position:75% center}.p3{background-position:center}.tech-visual.pur,.tech-visual.laser{background-position:center}.tech-visual.cnc,.tech-visual.delivery,.tech-visual.install{background-image:none;background:linear-gradient(135deg,#c9bda9,#ebe5d9)}
 
 .tech-visual.cnc{background:url(assets/production.svg) center/cover}.tech-visual.delivery{background:url(assets/delivery.svg) center/cover}.tech-visual.install{background:url(assets/installation.svg) center/cover}
 
