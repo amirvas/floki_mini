@@ -34,3 +34,18 @@
 .tech-visual.cnc{background:url(assets/production.svg) center/cover}.tech-visual.delivery{background:url(assets/delivery.svg) center/cover}.tech-visual.install{background:url(assets/installation.svg) center/cover}
 
 .p2,.p3,.photo-a{background-image:url(assets/kitchen-dark.png)}.p2{background-position:left center}.p3{background-position:right center}
+
+/* European material collection: one palette, one photographic language. */
+:root{--paper:#f3f0e9;--ink:#292722;--muted:#777064;--line:#d4cec2;--oak:#96795d}
+body{background:var(--paper);color:var(--ink)}
+.hero{background-position:center 55%}.shade{background:linear-gradient(90deg,rgba(28,26,22,.62),rgba(28,26,22,.12)),linear-gradient(0deg,rgba(28,26,22,.28),transparent 70%)}
+.hero-copy{bottom:15vh;right:7vw}.hero h1{font-size:clamp(60px,7.2vw,112px);max-width:1120px;line-height:.98}.hero .eyebrow{letter-spacing:.2em;color:#e6d8c7}.lead{font-size:18px;color:#f0e9df;line-height:1.65}
+.statement,.trade{background:var(--paper)}.statement h2 em,.trade-copy h2 em{color:var(--oak)}.statement .eyebrow,.feature-copy>.eyebrow,.projects .eyebrow,.technology .eyebrow{color:#80654c}
+.split{background:#e7e1d6}.photo-a{background-position:center}.feature-copy{padding:90px 5vw}.feature-copy>h2{font-size:clamp(48px,5.1vw,76px)}
+.section-head{gap:40px}.section-head>div{max-width:760px}.section-head h2{font-size:clamp(48px,5.4vw,80px);line-height:1}.section-head>p{flex-shrink:0;color:#6f675d;font-size:15px}
+.grid{grid-template-columns:1.25fr 1fr;grid-template-rows:380px 380px;gap:20px}.p3{background-image:url(assets/pur-oak-detail.png);background-position:center}.project{filter:saturate(.85)}.project:hover{filter:saturate(1)}.project:after{background:linear-gradient(transparent 35%,rgba(30,25,20,.65))}
+.technology{background:#ede8df}.tech-showcase{background:#f5f2eb;border-color:var(--line)}.tech-intro{grid-template-columns:1.25fr .75fr;gap:0 5vw}.tech-intro h2{font-size:clamp(50px,5.5vw,82px);line-height:1.02}.tech-intro>p:last-child{font-size:16px;color:#6c645a}
+.tech-item{border-color:var(--line);min-height:470px}.tech-visual{min-height:470px;filter:saturate(.82);background-position:center}.tech-visual:after{background:linear-gradient(135deg,transparent,#96795d08)}.tech-text{padding:64px 5vw}.tech-text h3{font-size:clamp(40px,4.1vw,60px);line-height:1.04;margin-top:28px}.tech-text p{font-size:15px;line-height:1.8;color:#6c645a}.tech-text span{color:#8b745d}.tech-text b{font-size:10px;letter-spacing:.1em;color:#6b5c4b}
+.tech-visual.cnc{background:url(assets/cabinet-precision.png) center/cover}.tech-visual.hardware{background:url(assets/drawer-detail.png) center/cover}
+.cta{background:#c6b59f}.cta h2{font-size:clamp(65px,9.8vw,145px)}footer{background:#27251f}footer .copyright{color:#a79c8b}
+@media(max-width:800px){.hero-copy{bottom:13vh;left:6vw;right:6vw}.hero h1{font-size:clamp(44px,11.6vw,76px)}.hero .eyebrow{font-size:9px;line-height:1.8;max-width:310px}.lead{font-size:15px}.section-head{display:block}.section-head h2{font-size:52px}.section-head>p{margin-top:25px}.grid{display:block}.photo{min-height:65vh}.feature-copy{padding:75px 6vw}.tech-intro{display:block}.tech-intro h2{font-size:clamp(44px,10.6vw,65px)}.tech-item{min-height:0}.tech-visual{min-height:72vw}.tech-text{padding:44px 6vw 55px}.tech-text h3{font-size:43px}.cta h2{font-size:clamp(58px,12vw,85px)}}
